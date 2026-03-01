@@ -8,8 +8,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val gameView = GameView(this)
-        setContentView(gameView)
+        setContentView(GameView(this))
     }
 }
