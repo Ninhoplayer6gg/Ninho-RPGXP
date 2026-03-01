@@ -4,7 +4,7 @@
 
     <application
     android:label="Ninho RPGXP"
-    android:theme="@style/Theme.NinhoRPGXP">
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
 
         <activity android:name=".MainActivity"
             android:exported="true">
