@@ -1,10 +1,10 @@
 package com.ninho.rpgxp
 
-import android.app.Activity
 import android.opengl.GLSurfaceView
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var glView: GLSurfaceView
 
