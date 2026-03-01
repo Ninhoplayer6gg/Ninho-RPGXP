@@ -11,5 +11,5 @@ plugins {
     id "org.jetbrains.kotlin.android" version "1.9.22" apply false
 }
 
-rootProject.name = "Ninho-RPGXP"
+rootProject.name = "Arkanis-Engine"
 include(":app")
