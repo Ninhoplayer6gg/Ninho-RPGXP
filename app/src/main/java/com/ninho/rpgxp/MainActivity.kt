@@ -12,9 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         glView = GLSurfaceView(this)
-        glView.setEGLContextClientVersion(2)
-        glView.setRenderer(SimpleRenderer())
-
+glView.setEGLContextClientVersion(2)
+// glView.setRenderer(SimpleRenderer())
         setContentView(glView)
     }
 
