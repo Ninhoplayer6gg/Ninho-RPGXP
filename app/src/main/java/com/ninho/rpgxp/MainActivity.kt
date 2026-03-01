@@ -12,7 +12,7 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
 
         glView = GLSurfaceView(this)
-        glView.setEGLContextClientVersion(3)
+        glView.setEGLContextClientVersion(2)
         glView.setRenderer(SimpleRenderer())
 
         setContentView(glView)
